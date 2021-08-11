@@ -1,0 +1,46 @@
+<!-- 
+### Exercise 1
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+3. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Positioning Content</title>
+  <link rel="stylesheet" href="stylesheet/styles.css">
+</head>
+<body>
+  <header class="header">
+    <p class="brand-name">AltCampus</p><!--
+    --><nav class="navbar">
+      <a href="#" class="nav-link">home</a>
+      <a href="#" class="nav-link">about</a>
+      <a href="#" class="nav-link">contact</a>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <div class="column col-1">
+        <h1 class="article-heading">
+          Lorem, ipsum dolor.
+        </h1>
+        <p class="article-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. A placeat ducimus repellendus quod magni natus? Ipsa vero corrupti quam doloremque perspiciatis, magni odio sint dignissimos velit itaque reiciendis natus saepe, repudiandae tempore. Saepe, fugiat! Architecto rem saepe voluptates adipisci, sed totam provident in cum aliquid beatae nemo animi, cupiditate voluptatem?
+        </p>
+      </div><!--
+      --><div class="column col-2">
+        <img src="media/1.jpg" alt="sea shore" class="image">
+      </div>
+    </article>
+  </main>
+  <footer class="footer">
+    <small>&copy; AltCampus 2021.</small>
+  </footer>
+</body>
+</html>
