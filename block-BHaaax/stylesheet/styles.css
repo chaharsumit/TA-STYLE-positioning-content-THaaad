@@ -49,11 +49,17 @@ table {
 /* Custom CSS */
 body{
   color: #fff;
+  line-height: 1.5;
 }
 
 .header{
   padding: 20px 50px;
   background-color: #01125ce1;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .brand-name, .navbar{
@@ -84,19 +90,23 @@ body{
   margin-bottom: 20px;
 }
 
+.article-text{
+  font-size: 20px;
+}
+
 .column{
-  background-color: #b64c3e9c;
   display: inline-block;
 }
 
 article{
-  height: 800px;
+  padding: 30px 0;
+  color: #000000;
 }
 
 .col-1{
   width: 50%;
   height: 100%;
-  padding: 20px;
+  padding: 0 20px 0 0;
   vertical-align: top;
 }
 
