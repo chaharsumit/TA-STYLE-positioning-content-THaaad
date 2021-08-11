@@ -1,0 +1,53 @@
+<!-- ### Exercise 2
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+3. Inside the main content crate three columns. In each column take one image and a paragraph below the image.
+4. Using float is necessary. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Css Positioning</title>
+  <link rel="stylesheet" href="assets/stylesheet/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container clearfix">
+      <a href="#" class="brand">
+        <img src="assets/media/1.jpg" alt="lemon" class="brand-image">
+      </a>
+      <nav class="navbar">
+        <a href="#" class="nav-link">home</a>
+        <a href="#" class="nav-link">about</a>
+        <a href="#" class="nav-link">contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+      <section>
+        <div class="container clearfix">
+          <article class="article">
+            <img src="assets/media/1.jpg" alt="lemon" class="article-image">
+            <p class="article-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ab aspernatur dolores, ex architecto ratione incidunt quidem, error fugiat aut est natus blanditiis magnam? Et qui eveniet ea blanditiis fugiat.</p>
+          </article>
+          <article class="article">
+            <img src="assets/media/1.jpg" alt="lemon" class="article-image">
+            <p class="article-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi quas at fuga voluptatibus perspiciatis tenetur culpa id, dolores est dicta! Mollitia itaque velit quibusdam aliquid saepe quos vitae pariatur accusantium!</p>
+          </article>
+          <article class="article">
+            <img src="assets/media/1.jpg" alt="lemon" class="article-image">
+            <p class="article-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eum optio numquam accusamus perspiciatis minus quas mollitia eius quisquam! Autem nostrum ipsam nemo sequi impedit beatae ea quos neque suscipit!</p>
+          </article>
+        </div>
+      </section>
+  </main>
+  <footer>
+    <small>&copy; AltCampus.</small>
+  </footer>
+</body>
+</html>
