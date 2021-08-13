@@ -44,6 +44,12 @@ table {
 
 /* Custom CSS */
 
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -60,6 +66,8 @@ body{
   position: fixed;
   top: 0;
   width: 100%;
+  height: 72px;
+  line-height: 72px;
 }
 
 .container{
@@ -67,32 +75,29 @@ body{
   margin: 0 auto;
 }
 
-.brand, .navbar{
-  display: inline-block;
-}
-
 .navbar{
   float: right;
-  padding: 25px 0;
 }
 
 .nav-item{
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   color: white;
   margin-left: 20px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .brand-image{
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
 }
 
 /* main styles */
 
 main{
-  margin-top: 87px;
+  margin-top: 72px;
 }
 
 .article-section{
@@ -104,7 +109,6 @@ main{
   width: 48%;
   margin: 1%;
   height: 400px;
-  display: inline-block;
   float: left;
   box-shadow: 1px 0 5px 0 black;
 }
@@ -139,7 +143,6 @@ main{
 }
 
 .gallery-image{
-  display: inline-block;
   width: 100%;
   height: 100%;
 }
@@ -153,9 +156,16 @@ main{
   text-align: center;
 }
 
+.footer-nav-item{
+  text-decoration: none;
+  color: #ff3838;
+  margin: 0 16px;
+}
+
 /* button style */
 
 .btn{
+  display: inline-block;
   position: fixed;
   bottom: 100px;
   right: 10px;
@@ -163,7 +173,8 @@ main{
   height: 50px;
   color: white;
   border-radius: 50%;
-  background-color: #161616;
+  background-color: #c52f2f;
+  border: none;
 }
 
 /*text styles*/
