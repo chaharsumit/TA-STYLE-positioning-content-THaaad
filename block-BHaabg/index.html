@@ -1,0 +1,87 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery Layout</title>
+  <link rel="stylesheet" href="assets/stylesheet/styles.css">
+  <script src="https://kit.fontawesome.com/063d84f516.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container clearfix">
+      <a href="index.html" class="brand">
+        <img src="assets/media/superman.svg" alt="" class="brand-image">
+      </a>
+      <nav class="navbar">
+        <a href="#" class="nav-item">Home</a>
+        <a href="#" class="nav-item">About</a>
+        <a href="#" class="nav-item">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <article class="article-section">
+      <div class="container article-container clearfix">
+          <div class="col col-1">
+            <header class="article-header">
+              <h3>Lorem, ipsum dolor.</h3>
+            </header>
+            <p class="article-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde laborum beatae nihil id, non sapiente velit, assumenda, quaerat laboriosam quos est et! Numquam voluptates velit officiis pariatur aliquid, exercitationem dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, hic. Eum rem ea architecto enim repellat, iure minima reprehenderit dolores.
+            </p>
+          </div>
+          <div class="col col-2">
+            <img src="assets/media/1.jpg" alt="image" class="article-image">
+          </div>
+      </div>
+    </article>
+    <section class="gallery-section">
+      <div class="container clearfix">
+        <div class="gallery-article">
+          <img src="assets/media/2.jpg" alt="" class="gallery-image">
+        </div>
+        <div class="gallery-article">
+          <img src="assets/media/3.jpg" alt="" class="gallery-image">
+        </div>
+        <div class="gallery-article">
+          <img src="assets/media/4.jpg" alt="" class="gallery-image">
+        </div>
+        <div class="gallery-article">
+          <img src="assets/media/5.jpg" alt="" class="gallery-image">
+        </div>
+        <div class="gallery-article">
+          <img src="assets/media/6.jpg" alt="" class="gallery-image">
+        </div>
+        <div class="gallery-article">
+          <img src="assets/media/7.jpg" alt="" class="gallery-image">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <a href="#" class="footer-nav-item"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="footer-nav-item"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="footer-nav-item"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+  <a href="#"><button class="btn"><i class="fas fa-arrow-up"></i></button></a>
+</body>
+</html>
