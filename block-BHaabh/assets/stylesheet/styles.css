@@ -1,0 +1,287 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+body{
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header styles */
+
+.header{
+  width: 100%;
+  background-color: #5385c1;
+  padding: 80px 0 80px 0;
+}
+
+.navbar{
+  float: right;
+}
+
+.brand{
+  font-weight: 900;
+}
+
+.link{
+  text-decoration: none;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+.nav-item{
+  margin-left: 24px;
+  text-transform: capitalize;
+  color: #abc3e0;
+  font-weight: 400;
+}
+
+.nav-item:hover{
+  color: #ffffff;
+  font-weight: 900;
+}
+
+/* Header styles */
+
+/* Hero section styles */
+
+
+.hero{
+  background-color: #5385c1;
+  color: #ffffff;
+  padding: 50px 0 200px 0;
+}
+
+.hero-header{
+  text-align: center;
+}
+
+.hero-heading{
+  font-size: 60px;
+  font-weight: 200;
+  margin-bottom: 12px;
+}
+
+.hero-text{
+  color: #abc3e0;
+  font-weight: 400;
+}
+
+
+/* Hero section styles */
+
+/* article grid styles */
+
+.article-grid-section{
+  padding: 100px 0;
+}
+
+.grid-article{
+  width: 33.333%;
+  float: left;
+  text-align: left;
+}
+
+.grid-heading{
+  color: #5385c1;
+  font-size: 24px;
+  padding-right: 70px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.grid-text{
+  padding-right: 70px;
+  margin-bottom: 20px;
+  color: #abc3e0;
+}
+
+.btn-link{
+  text-decoration: none;
+}
+
+.btn{
+  width: 90px;
+  height: 45px;
+  background-color: #5385c1;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+
+/* article grid styles */
+
+
+.team-grid-section{
+  background-color: #5385c1;
+  color: #ffffff;
+  padding: 120px 0;
+}
+
+.team-header{
+  text-align: center;
+  padding: 0 0 100px 0;
+}
+
+.team-heading{
+  font-size: 56px;
+  font-weight: 200;
+  margin-bottom: 12px;
+}
+
+.team-text{
+  color: #abc3e0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.team-grid-article{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.col{
+  display: inline-block;
+  padding: 40px 40px;
+  border: 1px solid #ebe9e941;
+}
+
+.grid-image{
+  border-radius: 50%;
+}
+
+.grid-image, .grid-text-lg, .grid-text-sm{
+  margin-bottom: 10px;
+}
+
+.grid-text-lg{
+  font-size: 24px;
+}
+
+.grid-text-sm{
+  font-size: 16px;
+}
+
+/* article grid styles */
+
+/* content grid styles */
+
+.grid-article-2{
+  width: 40%;
+  float: left;
+}
+
+.article-right{
+  margin-left: 12%;
+}
+
+.content-heading{
+  font-size: 56px;
+  font-weight: 200;
+  margin-bottom: 12px;
+  color: #5385c1;
+}
+
+/* content grid styles */
+
+/* footer styles */
+
+.footer .container{
+  border-top: 1px solid #dfd6d6;
+  padding: 32px 0; 
+}
+
+small{
+  font-size: 12px;
+}
+
+.footer-text{
+  font-size: 13px;
+  color: #abc3e0;
+}
+
+.footer-text, .footer-navbar{
+  display: inline-block;
+}
+
+.footer-navbar{
+  float: right;
+}
+
+.nav-link{
+  vertical-align: middle;
+  margin-left: 16px;
+  color: #5385c1;
+}
+
+.nav-link:hover i{
+  color: #114a91;
+}
+
+/* footer styles */
+
+/* Clearfix classes */
+
+.clearfix:before, .clearfix::after{
+  content: "";
+  display: table;
+}
+.clearfix:after{
+  clear: both;
+}
