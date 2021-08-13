@@ -41,7 +41,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*{
+*,
+*::before,
+*::after{
   box-sizing: border-box;
 }
 
@@ -51,20 +53,18 @@ body{
   background-color: #efefef;
   padding: 20px 20px;
   line-height: 1.5;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header{
-  text-align: center;
   margin: 0 auto 20px auto;
-  padding: 10px 0;
 }
 
 .container{
   max-width: 1260px;
   background-color: #ffffff;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 0 32px;
 }
 
 .col{
@@ -83,12 +83,15 @@ body{
 
 .heading{
   font-size: 46px;
+  text-align: center;
   font-weight: 700;
+  padding: 10px 0;
   color: #32333a;
 }
 
 .article-header{
   margin-left: 26.5%;
+  padding-top: 10px;
 }
 
 .article-heading{
